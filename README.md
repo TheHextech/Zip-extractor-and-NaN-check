@@ -35,4 +35,4 @@ The following functions aim to automatize file extraction and make an overall ch
 Feel free to download, pull requests, or make suggestions about the script. Hope you can enjoy it or find it as a fount of ispiration!   
 
 ## Sources
-[Source of the zip file](https://www.kaggle.com/datasets/gsutters/the-human-freedom-index). 
+[Source of the zip file](https://www.kaggle.com/datasets/gsutters/the-human-freedom-index){:target="_blank"}. 
