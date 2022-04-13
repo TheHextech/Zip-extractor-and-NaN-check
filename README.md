@@ -32,7 +32,9 @@ The following functions aim to automatize file extraction and make an overall ch
 	- the effect of dropping rows and columns in terms of remaining data and which is the best method.
 
 ## Extra, for free, for fun! 
-Feel free to download, pull requests, or make suggestions about the script. Hope you can enjoy it or find it as a fount of ispiration!   
+Feel free to download, pull requests, or make suggestions about the script. For example, sometime encoding problems can hurt really hard and a fix it's needed. However, I had such problems in VS code with its Jupyter, while in Jupyter Lab/Notebook it runs without any issue.
+
+Hope you can enjoy it or find it as a fount of ispiration!   
 
 ## Sources
 [Source of the zip file](https://www.kaggle.com/datasets/gsutters/the-human-freedom-index). 
