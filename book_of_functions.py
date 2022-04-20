@@ -79,7 +79,7 @@ def csv_nan_reader():
                             print('\nTotal lenght of missing rows:', len(rows_with_missing))
                             
                             if len(rows_with_missing) > 10:
-                                print('Rows containing missing values:\n',rows_with_missing[:10],'...', rows_with_missing[-1])
+                                print(f'Rows containing missing values:\n{rows_with_missing[:10]}...[{rows_with_missing[-1]}]')
                             else:
                                 print('Rows containing missing values:\n',rows_with_missing)
                                 
@@ -95,7 +95,7 @@ def csv_nan_reader():
                             print('\n\nTotal lenght of missing columns:', len(cols_with_missing))
                             
                             if len(cols_with_missing) > 10:
-                                print('Columns containing missing values:\n', cols_with_missing[:10],'...', cols_with_missing[-1])
+                                print(f'Columns containing missing values:\n{cols_with_missing[:10]}...[{cols_with_missing[-1]}]')                                
                             else:
                                 print('Columns containing missing values:\n',cols_with_missing)
                                 
