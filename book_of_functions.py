@@ -94,8 +94,8 @@ def csv_nan_reader():
                             cols_with_missing = [col for col in df.columns if df[col].isnull().any()]
                             print('\n\nTotal lenght of missing columns:', len(cols_with_missing))
                             
-                            if len(cols_with_missing) > 10:
-                                print(f'Columns containing missing values:\n{cols_with_missing[:10]}...[{cols_with_missing[-1]}]')                                
+                            if len(cols_with_missing) > 5:
+                                print(f'Columns containing missing values:\n{cols_with_missing[:5]}...[{cols_with_missing[-1]}]')                                
                             else:
                                 print('Columns containing missing values:\n',cols_with_missing)
                                 
